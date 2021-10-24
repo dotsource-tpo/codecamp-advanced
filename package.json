@@ -1,0 +1,29 @@
+{
+  "name": "codecamp-advanced",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "npx nodemon server.js -w ./ -e html,js,css,php,phtml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotsource-tpo/codecamp-advanced.git"
+  },
+  "author": "dotsource-tpo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotsource-tpo/codecamp-advanced/issues"
+  },
+  "homepage": "https://github.com/dotsource-tpo/codecamp-advanced#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-winston": "^4.2.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
